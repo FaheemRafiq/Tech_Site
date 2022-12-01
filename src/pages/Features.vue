@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-[#5267DF] text-white pt-20">
+  <div id="features" class="bg-[#5267DF] text-white pt-20">
     <!-- ? Heading section -->
     <section class="pt-32 flex flex-col items-center text-center mx-10">
       <h1 class="text-4xl font-normal">Features</h1>

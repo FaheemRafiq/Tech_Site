@@ -4,19 +4,13 @@ export default {
     components:{ButtonVue},
     props:{
         heading:String,
-    },
-    computed:{
-        getSrc(){
-            console.log(this.src);
-        }
-    },
+    }
 };
 </script>
 
 <!-- * Content -->
 
 <template>
-  <div>
     <div class="text-white flex justify-center items-center mt-20">
       <div
         class="
@@ -24,7 +18,7 @@ export default {
           items-center
           lg:flex-row
           md:py-20
-          lg:py-30 lg:px-20
+          lg:px-20
         "
       >
         <div
@@ -64,5 +58,4 @@ export default {
         ></div>
       </div>
     </div>
-  </div>
 </template>
