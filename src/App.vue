@@ -1,22 +1,16 @@
+<script>
+import LandingVue from './pages/Landing.vue';
+import Features from './pages/Features.vue'
+import FooterVue from './pages/Footer.vue';
+export default {
+  components:{Features , LandingVue , FooterVue},
+}
+</script>
+
 <template>
   <div>
     <landing-vue/>
     <Features/>
+    <footer-vue/>
   </div>
 </template>
-
-<script>
-import LandingVue from './pages/Landing.vue';
-import Features from './pages/Features.vue'
-import Landing from './pages/Landing.vue';
-export default {
-  components:{Features , LandingVue},
-  setup(){
-    Landing
-  }
-}
-</script>
-
-<style>
-
-</style>

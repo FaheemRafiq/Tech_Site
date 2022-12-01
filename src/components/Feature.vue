@@ -17,7 +17,7 @@ export default {
           flex flex-col
           items-center
           lg:flex-row
-          md:py-20
+          md:pt-20
           lg:px-20
         "
       >
